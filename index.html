@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <h2>TO DO LIST</h2>
+            <h3>Its Friday ,what are your plans today?</h3>
+            <p>
+                <input id="new-task" type="text"><button id="adding">Add</button>
+            </p>
+    
+            <h3>To do</h3>
+            <ul id="incomplete-tasks">
+                <li><input type="checkbox"><label>Deliver orders</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                <li><input type="checkbox"><label>read book</label><input type="text" value="read book"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            </ul>
+    
+            <h3>Completed</h3>
+            <ul id="completed-tasks">
+                <li><input type="checkbox" checked><label>Go to gym</label><input type="text"><button class="edited">Edit</button><button class="deleted">Delete</button></li>
+            </ul>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
